@@ -10,9 +10,27 @@
 
 ---
 
+
+---
+
+
+
+
+
+<h1 align="center" style="font-size:2.75rem; color:#2c3e50; font-weight:bold;">🚀 FORMCEPT DevOps Internship Assessment</h1>
+<h3 align="center" style="font-style:italic; color:#7f8c8d;">An End-to-End Cloud-Native DevOps Architecture by Jotheeshwaran V</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/DevOps-Containerization-blue" />
+  <img src="https://img.shields.io/badge/Platform-Kubernetes%20%7C%20Docker-green" />
+  <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%26%20Grafana-yellow" />
+  <img src="https://img.shields.io/badge/License-Educational-lightgrey" />
+</p>
+
+---
 ## 📋 Overview
 
-This repository showcases a full-stack DevOps solution covering containerization, orchestration, monitoring, and deployment using:
+This repository presents a production-grade DevOps pipeline designed for educational purposes as part of the FORMCEPT internship evaluation. It showcases a complete workflow from container fundamentals to advanced service orchestration, ensuring observability, fault tolerance, and scalability.
 
 - **Docker & Docker Compose**
 - **OpenSearch Cluster**
@@ -20,487 +38,256 @@ This repository showcases a full-stack DevOps solution covering containerization
 - **Kubernetes Cluster (kubeadm + containerd)**
 - **Service Exposure via NodePort & Ingress**
 
+<!-- FORMCEPT DevOps Internship Assessment - README with Animations -->
+
+<h1 align="center" style="font-size:3rem; font-weight:bold; color:#1f2937; animation: fadeInDown 1.5s ease-out;">🚀 FORMCEPT DevOps Internship Assessment</h1>
+<h3 align="center" style="color:#4b5563; font-style:italic; animation: fadeIn 2s ease-in-out;">An End-to-End Cloud-Native DevOps Architecture by Jotheeshwaran V</h3>
+
+<p align="center" style="animation: fadeIn 3s ease-in-out;">
+  <img src="https://img.shields.io/badge/DevOps-Containerization-blue" />
+  <img src="https://img.shields.io/badge/Platform-Kubernetes%20%7C%20Docker-green" />
+  <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%26%20Grafana-yellow" />
+  <img src="https://img.shields.io/badge/License-Educational-lightgrey" />
+</p>
+
+---
+
+## 📋 Executive Summary
+
+<div style="animation: slideIn 1s ease-in-out;">
+This repository presents a production-grade DevOps pipeline designed for educational purposes as part of the FORMCEPT internship evaluation. It showcases a complete workflow from container fundamentals to advanced service orchestration, ensuring observability, fault tolerance, and scalability.
+</div>
+
+### 🎯 Objectives
+
+<div style="animation: slideIn 2s ease-in-out;">
+<ol>
+  <li>Understand the basics of containers (<code>chroot</code>, container runtime, container engine)</li>
+  <li>Set up Docker Engine backed by <code>containerd</code></li>
+  <li>Deploy an OpenSearch cluster using <code>docker-compose</code></li>
+  <li>Monitor OpenSearch with Prometheus and Grafana</li>
+  <li>Create a Kubernetes cluster using <code>kubeadm</code> backed by <code>containerd</code></li>
+  <li>Deploy OpenSearch in the Kubernetes cluster</li>
+  <li>Expose the OpenSearch cluster using NodePort and Ingress</li>
+</ol>
+</div>
+
+---
+
+## 👨‍💻 Author
+
+<div align="center" style="margin-top: 2rem; margin-bottom: 2rem; animation: fadeInUp 2s ease-in-out;">
+  <img src="https://avatars.githubusercontent.com/u/106529556?v=4" width="120" style="border-radius: 50%; border: 4px solid #2563eb; animation: pulse 3s infinite;" alt="Jotheeshwaran Avatar">
+  <h3 style="color:#1d4ed8; font-weight:700; font-size:1.75rem; margin-top: 0.5rem; animation: zoomIn 1s ease-in-out;">Jotheeshwaran V</h3>
+  <p style="color:#6b7280; font-size:1.05rem;">
+    📧 <strong>Email:</strong> <a href="mailto:jotheeshwaranv2002@gmail.com">jotheeshwaranv2002@gmail.com</a><br/>
+    🌐 <strong>Portfolio:</strong> <a href="https://unique-crepe-5ea0e0.netlify.app" target="_blank">unique-crepe-5ea0e0.netlify.app</a><br/>
+    🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jotheeshwaran-v" target="_blank">linkedin.com/in/jotheeshwaran-v</a>
+  </p>
+</div>
+
+---
+
+<style>
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateX(-50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+img:hover, h3:hover, p:hover, a:hover {
+  filter: brightness(1.1);
+  transition: 0.3s ease-in-out;
+}
+</style>
+
+---
+
+<!-- The rest of the README continues here... include architecture, setup, monitoring, etc. -->
+
+
 > 📌 Candidate: **Jotheeshwaran V**  
 > 📧 Email: [jotheeshwaranv2002@gmail.com](mailto:jotheeshwaranv2002@gmail.com)  
 > 🔗 [LinkedIn](https://linkedin.com/in/jotheeshwaran-v) | 🌐 [Portfolio](https://unique-crepe-5ea0e0.netlify.app)
 
+
+## 📋 Executive Summary
+
+
+
+
+> 📌 **Author**: Jotheeshwaran V
+> 📧 [jotheeshwaranv2002@gmail.com](mailto:jotheeshwaranv2002@gmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/jotheeshwaran-v) | 🌍 [Portfolio](https://unique-crepe-5ea0e0.netlify.app)
+
 ---
 
-## 🏗️ Architecture Diagram
+## 🧰 Technology Stack
 
-┌─────────────────────────────────────────────────────────────┐
-│ Complete Architecture │
-├─────────────────────────────────────────────────────────────┤
-│ Docker Setup ┌────────────┐ Kubernetes Cluster │
-│ ┌────────────┐ │ OpenSearch │ ┌────────────┐ │
-│ │ Dashboards │ │ Cluster │ │ StatefulSet│ │
-│ └────────────┘ └────────────┘ └────────────┘ │
-│ │ │ │ │
-│ ┌────────────┐ ┌────────────┐ ┌────────────┐ │
-│ │ Prometheus │◄────►│ Node Export│ │ Grafana │ │
-└─────────────────────────────────────────────────────────────┘
+| Category         | Tools & Technologies                        |
+| ---------------- | ------------------------------------------- |
+| Containerization | Docker, containerd, chroot                  |
+| Orchestration    | Kubernetes (kubeadm, containerd)            |
+| Search Engine    | OpenSearch Cluster, Dashboards              |
+| Monitoring       | Prometheus, Grafana, Node Exporter          |
+| Networking       | NodePort, Ingress, CNI (Flannel)            |
+| Observability    | Custom Dashboards, Exporters, Alerts        |
+| Security         | RBAC, Network Policies, Non-root containers |
 
+---
 
-🏗️ Architecture Diagram
+## 🧱 High-Level Architecture
 
-┌─────────────────────────────────────────────────────────────┐
-│                    Complete Architecture                     │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌─────────────────┐    ┌─────────────────┐                │
-│  │   Docker Setup  │    │  K8s Cluster    │                │
-│  │                 │    │                 │                │
-│  │ ┌─────────────┐ │    │ ┌─────────────┐ │                │
-│  │ │ OpenSearch  │ │    │ │ OpenSearch  │ │                │
-│  │ │  Cluster    │ │    │ │  Cluster    │ │                │
-│  │ └─────────────┘ │    │ └─────────────┘ │                │
-│  │       │         │    │       │         │                │
-│  │ ┌─────────────┐ │    │ ┌─────────────┐ │                │
-│  │ │ Prometheus  │ │    │ │ Prometheus  │ │                │
-│  │ │  & Grafana  │ │    │ │  & Grafana  │ │                │
-│  │ └─────────────┘ │    │ └─────────────┘ │                │
-│  └─────────────────┘    └─────────────────┘                │
-│           │                       │                        │
-│  ┌─────────────────────────────────────────────────────────┐│
-│  │              containerd Runtime                         ││
-│  └─────────────────────────────────────────────────────────┘│
-└─────────────────────────────────────────────────────────────┘
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jotheeshwaran-v/formcept-devops-assessment/main/docs/images/architecture-diagram.png" alt="Full System Architecture" width="850" />
+</p>
 
+### 🔑 Key Components
 
-📁 Repository Structure
+* **Docker Layer**: Containerized OpenSearch stack with Dashboards
+* **Monitoring Layer**: Prometheus & Grafana for cluster health, node metrics
+* **Kubernetes Layer**: StatefulSet for persistent OpenSearch, ConfigMap, PVC, Secrets
+* **Networking Layer**: Service exposure via NodePort and optional Ingress
 
+---
+
+## 📁 Project Structure
+
+```
 formcept-devops-assessment/
 ├── README.md
-├── docs/
-│   ├── 01-container-fundamentals.md
-│   ├── 02-docker-setup.md
-│   ├── 03-opensearch-docker.md
-│   ├── 04-monitoring-setup.md
-│   ├── 05-kubernetes-setup.md
-│   ├── 06-opensearch-k8s.md
-│   └── 07-service-exposure.md
-├── docker/
-│   ├── docker-compose.yml
-│   ├── opensearch/
-│   │   ├── opensearch.yml
-│   │   └── opensearch-dashboards.yml
-│   └── monitoring/
-│       ├── prometheus.yml
-│       └── grafana/
-│           └── dashboards/
-├── kubernetes/
-│   ├── setup/
-│   │   ├── kubeadm-config.yaml
-│   │   └── cluster-setup.sh
-│   ├── opensearch/
-│   │   ├── namespace.yaml
-│   │   ├── configmap.yaml
-│   │   ├── statefulset.yaml
-│   │   ├── service.yaml
-│   │   └── ingress.yaml
-│   └── monitoring/
-│       ├── prometheus/
-│       └── grafana/
-├── scripts/
-│   ├── setup-docker.sh
-│   ├── setup-kubernetes.sh
-│   ├── deploy-opensearch.sh
-│   └── cleanup.sh
-└── troubleshooting/
-    ├── common-issues.md
-    └── solutions.md
+├── docs/                        # Technical Documentation
+├── docker/                      # Docker & Compose files
+├── kubernetes/                  # Kubernetes manifests
+├── scripts/                     # Shell-based automation
+└── troubleshooting/             # Debugging & resolutions
+```
 
+---
 
+## ⚙️ Setup Instructions
 
-🎯 Task Implementation
-Task 1: Container Fundamentals
-Understanding Core Concepts:
+### ✅ Pre-requisites
 
-chroot: Process isolation at filesystem level
-Container Runtime: Low-level container execution (runc, crun)
-Container Engine: High-level container management (Docker, Podman)
+* OS: Ubuntu 20.04+/CentOS 8+
+* RAM: 8GB+ (min 4GB)
+* Disk: 20GB+
+* Tools: `curl`, `kubectl`, `docker`, `kubeadm`
 
-Key Learning Points:
+### 1. 🐳 Docker + containerd Setup
 
-Containers share the host kernel but provide process isolation
-containerd acts as the industry-standard container runtime
-Docker Engine uses containerd as its runtime backend
-
-Task 2: Docker Engine with containerd
-Implementation Details:
-
-Configured Docker daemon with containerd runtime
-Enabled Docker API and containerd socket
-Verified container runtime chain: Docker → containerd → runc
-
-Configuration Files:
-json{
-  "exec-opts": ["native.cgroupdriver=systemd"],
-  "log-driver": "json-file",
-  "storage-driver": "overlay2",
-  "runtimes": {
-    "runc": {
-      "path": "runc"
-    }
-  }
-}
-Task 3: OpenSearch with Docker Compose
-Features Implemented:
-
-Multi-node OpenSearch cluster (3 nodes)
-OpenSearch Dashboards integration
-Persistent volume mapping
-Security configurations
-Health checks and restart policies
-
-Cluster Configuration:
-
-Node 1: Master + Data node
-Node 2: Data node
-Node 3: Data node
-Dashboard: Management interface
-
-Task 4: Monitoring with Prometheus & Grafana
-Monitoring Stack:
-
-Prometheus: Metrics collection and storage
-Grafana: Visualization and alerting
-OpenSearch Exporter: Custom metrics extraction
-Node Exporter: System metrics
-
-Dashboards Included:
-
-OpenSearch Cluster Health
-JVM Memory Usage
-Search Performance
-Indexing Rates
-System Resources
-
-Task 5: Kubernetes Cluster with kubeadm
-Cluster Specifications:
-
-Master Node: Control plane components
-Worker Nodes: Application workloads
-CNI Plugin: Flannel for pod networking
-Runtime: containerd
-
-Components Deployed:
-
-kube-apiserver
-etcd
-kube-scheduler
-kube-controller-manager
-kubelet
-kube-proxy
-
-Task 6: OpenSearch on Kubernetes
-Kubernetes Resources:
-
-StatefulSet: For persistent OpenSearch nodes
-ConfigMap: Configuration management
-PersistentVolumes: Data persistence
-Services: Internal cluster communication
-Secrets: Security credentials
-
-Task 7: Service Exposure
-Exposure Methods Implemented:
-
-NodePort Services
-
-Direct access via node IP and port
-Suitable for development/testing
-
-
-Ingress Controller
-
-HTTP/HTTPS load balancing
-Domain-based routing
-SSL termination
-
-
-
-
-🚀 Quick Start Guide
-Prerequisites
-bash# System Requirements
-- Ubuntu 20.04+ / CentOS 8+
-- 4GB RAM minimum (8GB recommended)
-- 20GB disk space
-- Internet connectivity
-1. Clone Repository
-bashgit clone https://github.com/jotheeshwaran-v/formcept-devops-assessment.git
+```bash
+git clone https://github.com/jotheeshwaran-v/formcept-devops-assessment.git
 cd formcept-devops-assessment
 chmod +x scripts/*.sh
-2. Setup Docker Environment
-bash# Install Docker with containerd
 ./scripts/setup-docker.sh
+```
 
-# Verify installation
-docker --version
-docker info | grep -i runtime
-3. Deploy OpenSearch with Docker
-bash# Start OpenSearch cluster
+### 2. 🔍 OpenSearch via Docker Compose
+
+```bash
 cd docker/
 docker-compose up -d
-
-# Verify cluster health
 curl -X GET "localhost:9200/_cluster/health?pretty"
-4. Setup Monitoring
-bash# Access Grafana
-http://localhost:3000
-# Default credentials: admin/admin
+```
 
-# Access Prometheus
-http://localhost:9090
-5. Setup Kubernetes Cluster
-bash# Initialize cluster
+### 3. 📊 Deploy Monitoring Tools
+
+* Prometheus: [http://localhost:9090](http://localhost:9090)
+* Grafana: [http://localhost:3000](http://localhost:3000) *(default: admin/admin)*
+
+---
+
+## ☸️ Kubernetes Deployment
+
+### 4. 🛠️ Initialize Cluster
+
+```bash
 ./scripts/setup-kubernetes.sh
-
-# Verify cluster status
 kubectl get nodes
-kubectl get pods --all-namespaces
-6. Deploy OpenSearch on Kubernetes
-bash# Deploy OpenSearch
+```
+
+### 5. 🧩 Deploy OpenSearch Stack
+
+```bash
 kubectl apply -f kubernetes/opensearch/
-
-# Check deployment status
 kubectl get pods -n opensearch
-kubectl get svc -n opensearch
-7. Access Services
-bash# NodePort access
-kubectl get svc -n opensearch
-# Access via http://node-ip:nodeport
+```
 
-# Ingress access (if configured)
-http://opensearch.local
+### 6. 🌐 Service Access
 
-🔧 Detailed Configuration
-Docker Compose Configuration
-yamlversion: '3.8'
-services:
-  opensearch-node1:
-    image: opensearchproject/opensearch:2.11.0
-    container_name: opensearch-node1
-    environment:
-      - cluster.name=opensearch-cluster
-      - node.name=opensearch-node1
-      - discovery.seed_hosts=opensearch-node1,opensearch-node2,opensearch-node3
-      - cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2,opensearch-node3
-      - bootstrap.memory_lock=true
-      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
-      - "DISABLE_INSTALL_DEMO_CONFIG=true"
-      - "DISABLE_SECURITY_PLUGIN=true"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-      nofile:
-        soft: 65536
-        hard: 65536
-    volumes:
-      - opensearch-data1:/usr/share/opensearch/data
-    ports:
-      - 9200:9200
-      - 9600:9600
-    networks:
-      - opensearch-net
-Kubernetes StatefulSet
-yamlapiVersion: apps/v1
-kind: StatefulSet
-metadata:
-  name: opensearch-cluster
-  namespace: opensearch
-spec:
-  serviceName: opensearch
-  replicas: 3
-  selector:
-    matchLabels:
-      app: opensearch
-  template:
-    metadata:
-      labels:
-        app: opensearch
-    spec:
-      containers:
-      - name: opensearch
-        image: opensearchproject/opensearch:2.11.0
-        ports:
-        - containerPort: 9200
-          name: rest
-        - containerPort: 9300
-          name: inter-node
-        env:
-        - name: cluster.name
-          value: "k8s-opensearch"
-        - name: node.name
-          valueFrom:
-            fieldRef:
-              fieldPath: metadata.name
-        - name: discovery.seed_hosts
-          value: "opensearch-0.opensearch,opensearch-1.opensearch,opensearch-2.opensearch"
-        - name: cluster.initial_cluster_manager_nodes
-          value: "opensearch-0,opensearch-1,opensearch-2"
-        - name: bootstrap.memory_lock
-          value: "true"
-        - name: OPENSEARCH_JAVA_OPTS
-          value: "-Xms512m -Xmx512m"
-        resources:
-          requests:
-            memory: "1Gi"
-            cpu: "500m"
-          limits:
-            memory: "2Gi"
-            cpu: "1000m"
-        volumeMounts:
-        - name: data
-          mountPath: /usr/share/opensearch/data
-  volumeClaimTemplates:
-  - metadata:
-      name: data
-    spec:
-      accessModes: ["ReadWriteOnce"]
-      resources:
-        requests:
-          storage: 10Gi
+* **NodePort**: `http://<node-ip>:<node-port>`
+* **Ingress** *(optional)*: `http://opensearch.local`
 
-📊 Monitoring & Observability
-Prometheus Configuration
-yamlglobal:
-  scrape_interval: 15s
-  evaluation_interval: 15s
+---
 
-scrape_configs:
-  - job_name: 'opensearch'
-    static_configs:
-      - targets: ['localhost:9200']
-    metrics_path: '/_prometheus/metrics'
-    
-  - job_name: 'node-exporter'
-    static_configs:
-      - targets: ['localhost:9100']
-      
-  - job_name: 'kubernetes-pods'
-    kubernetes_sd_configs:
-      - role: pod
-Grafana Dashboards
-Key Metrics Monitored:
+## 📊 Monitoring Dashboards
 
-Cluster Health Status
-Node Performance
-Index Operations
-Query Performance
-JVM Heap Usage
-Disk I/O
-Network Traffic
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jotheeshwaran-v/formcept-devops-assessment/main/docs/images/grafana-dashboard.png" width="850" alt="Grafana Dashboard Overview" />
+</p>
 
+### Observability Coverage
 
-🐛 Troubleshooting Guide
-Common Issues & Solutions
-1. Docker Installation Issues
-Problem: Docker daemon fails to start
-bash# Check system logs
-sudo journalctl -u docker.service
+* OpenSearch Cluster Health
+* JVM Heap, Index Stats, Latency
+* Disk I/O & Node Resource Usage
+* Kubernetes Pod/Node Metrics
 
-# Common solution
-sudo systemctl daemon-reload
-sudo systemctl restart docker
-2. OpenSearch Bootstrap Failures
-Problem: Cluster fails to form
-bash# Check container logs
-docker logs opensearch-node1
+---
 
-# Common issues:
-# - Memory lock settings
-# - Discovery configuration
-# - Port conflicts
-Solution:
-bash# Update system limits
-echo 'vm.max_map_count=262144' | sudo tee -a /etc/sysctl.conf
-sudo sysctl -p
+## 🐞 Troubleshooting & Support
 
-# Fix memory lock
-sudo systemctl edit docker
-# Add:
-[Service]
-LimitMEMLOCK=infinity
-3. Kubernetes Cluster Issues
-Problem: kubeadm init fails
-bash# Check system requirements
-sudo kubeadm config images list
-sudo kubeadm config images pull
+| Issue                 | Recommended Fix                                 |
+| --------------------- | ----------------------------------------------- |
+| Docker fails to start | `sudo systemctl restart docker`                 |
+| Kubeadm init error    | Validate system requirements, re-run init       |
+| Pod stuck in Pending  | Check taints, PVC availability, resource limits |
+| Service unreachable   | Validate ports, Ingress rules, endpoint status  |
 
-# Reset and retry
-sudo kubeadm reset
-sudo kubeadm init --config=kubeadm-config.yaml
-4. Pod Scheduling Issues
-Problem: Pods stuck in Pending state
-bash# Check node status
-kubectl describe nodes
+More info: [`troubleshooting/common-issues.md`](./troubleshooting/common-issues.md)
 
-# Check pod events
-kubectl describe pod <pod-name> -n <namespace>
+---
 
-# Common solutions:
-# - Resource constraints
-# - Taints/tolerations
-# - PVC issues
-5. Service Connectivity Issues
-Problem: Cannot access services
-bash# Check service endpoints
-kubectl get endpoints -n <namespace>
+## 🚀 Performance Tuning
 
-# Check network policies
-kubectl get networkpolicies -n <namespace>
+### Docker Optimizations
 
-# Test connectivity
-kubectl run test-pod --image=busybox -it --rm -- /bin/sh
-# From inside pod: wget -qO- http://service-name:port
-
-🧪 Testing & Validation
-Docker Environment Tests
-bash# Test OpenSearch cluster
-curl -X GET "localhost:9200/_cluster/health?pretty"
-curl -X GET "localhost:9200/_cat/nodes?v"
-
-# Test indexing
-curl -X POST "localhost:9200/test-index/_doc/1" \
-  -H 'Content-Type: application/json' \
-  -d '{"message": "Hello OpenSearch"}'
-
-# Test search
-curl -X GET "localhost:9200/test-index/_search?pretty"
-Kubernetes Environment Tests
-bash# Test cluster health
-kubectl get componentstatuses
-kubectl get nodes -o wide
-
-# Test OpenSearch deployment
-kubectl get pods -n opensearch
-kubectl logs -f opensearch-0 -n opensearch
-
-# Test service connectivity
-kubectl port-forward svc/opensearch 9200:9200 -n opensearch
-curl -X GET "localhost:9200/_cluster/health?pretty"
-Monitoring Tests
-bash# Test Prometheus targets
-curl http://localhost:9090/api/v1/targets
-
-# Test Grafana API
-curl -u admin:admin http://localhost:3000/api/health
-
-📈 Performance Optimization
-Docker Optimizations
-yaml# Resource limits in docker-compose
+```yaml
 deploy:
   resources:
     limits:
       cpus: '1.0'
       memory: 2G
-    reservations:
-      cpus: '0.5'
-      memory: 1G
-Kubernetes Optimizations
-yaml# Resource requests and limits
+```
+
+### Kubernetes Resource Management
+
+```yaml
 resources:
   requests:
     memory: "1Gi"
@@ -508,129 +295,43 @@ resources:
   limits:
     memory: "2Gi"
     cpu: "1000m"
+```
 
-# Pod disruption budgets
-apiVersion: policy/v1
-kind: PodDisruptionBudget
-metadata:
-  name: opensearch-pdb
-spec:
-  minAvailable: 2
-  selector:
-    matchLabels:
-      app: opensearch
+---
 
-🔐 Security Considerations
-Docker Security
-yaml# Security options
-security_opt:
-  - no-new-privileges:true
-  - seccomp:unconfined
+## 🔐 Security & Governance
 
-# User namespace remapping
-user: "1000:1000"
+* Run containers as non-root
+* Use PodSecurityContext & fsGroup
+* RBAC-controlled access and role bindings
+* Isolate traffic using Kubernetes NetworkPolicy
 
-# Read-only root filesystem
-read_only: true
-tmpfs:
-  - /tmp
-  - /var/cache
-Kubernetes Security
-yaml# Security context
-securityContext:
-  runAsNonRoot: true
-  runAsUser: 1000
-  fsGroup: 1000
-  capabilities:
-    drop:
-      - ALL
-    add:
-      - NET_BIND_SERVICE
-Network Policies
-yamlapiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: opensearch-netpol
-  namespace: opensearch
-spec:
-  podSelector:
-    matchLabels:
-      app: opensearch
-  policyTypes:
-  - Ingress
-  - Egress
-  ingress:
-  - from:
-    - podSelector:
-        matchLabels:
-          app: opensearch
-    ports:
-    - protocol: TCP
-      port: 9300
-  - from: []
-    ports:
-    - protocol: TCP
-      port: 9200
+---
 
-📚 Learning Resources
-Container Fundamentals
+## 🌟 Roadmap / Future Enhancements
 
-Container Runtime Interface
-containerd Documentation
-Docker Engine Architecture
+| Feature               | Description                                   |
+| --------------------- | --------------------------------------------- |
+| ✅ Helm Chart Support  | Easier templated deployments                  |
+| 🌀 ArgoCD GitOps      | Declarative, versioned cluster state          |
+| 🔒 Vault Integration  | Manage secrets securely                       |
+| 🧪 Load Testing Tools | Performance benchmarking for OpenSearch       |
+| 💬 Slack/Alertmanager | Real-time alerting on performance degradation |
 
-OpenSearch Resources
+---
 
-OpenSearch Documentation
-OpenSearch Kubernetes Operator
-Performance Tuning Guide
+## 📞 Contact Information
 
-Kubernetes Resources
+> 👤 **Jotheeshwaran V**
+> 📧 [jotheeshwaranv2002@gmail.com](mailto:jotheeshwaranv2002@gmail.com)
+> ☎️ +91 8667782566
+> 🔗 [LinkedIn](https://linkedin.com/in/jotheeshwaran-v) • 🌐 [Portfolio](https://unique-crepe-5ea0e0.netlify.app)
 
-Kubernetes Documentation
-kubeadm Setup Guide
-Kubernetes Networking
+---
 
+## 📄 License
 
-🚀 Future Enhancements
-Planned Improvements
+This codebase is created solely for the FORMCEPT Internship Assessment. All configurations and deployments are intended for educational use only.
 
-Helm Charts: Package applications for easier deployment
-CI/CD Pipeline: Automated testing and deployment
-Multi-Region Setup: Cross-region cluster deployment
-Advanced Monitoring: Custom metrics and alerting rules
-Backup & Recovery: Automated backup strategies
-Security Hardening: RBAC, Pod Security Standards
-Load Testing: Performance benchmarking tools
+<p align="center" style="color:#7f8c8d; font-style:italic;">Crafted with precision, automation, and 💙 by Jotheeshwaran V</p>
 
-Additional Features
-
-Service Mesh: Istio integration for advanced traffic management
-GitOps: ArgoCD for declarative deployments
-Observability: Distributed tracing with Jaeger
-Cost Optimization: Resource utilization monitoring
-
-
-📞 Contact & Support
-Candidate Information:
-
-Name: Jotheeshwaran V
-Email: Jotheeshwaranv2002@gmail.com
-Phone: +91 8667782566
-LinkedIn: linkedin.com/in/jotheeshwaran-v
-Portfolio: unique-crepe-5ea0e0.netlify.app
-
-Repository: GitHub - FORMCEPT DevOps Assessment
-
-📄 License
-This project is created for educational and assessment purposes as part of the FORMCEPT DevOps Internship application process.
-
-🙏 Acknowledgments
-
-FORMCEPT Team for providing this comprehensive assessment opportunity
-OpenSearch Community for excellent documentation and support
-Kubernetes Community for robust orchestration platform
-Prometheus & Grafana teams for powerful monitoring solutions
-
-
-This assessment demonstrates comprehensive understanding of modern DevOps practices, containerization technologies, and cloud-native architectures. The implementation showcases production-ready configurations with proper error handling, monitoring, and documentation.
