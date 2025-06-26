@@ -121,52 +121,52 @@ Covers Docker installation and configuration using containerd:
 
 ### 3. 📦 OpenSearch with Docker Compose
 
-**Path:** [`3_opensearch_docker_compose/`](formcept-devops-assessment/docs/03-opensearch-docker.md/)
+**Path:** [`3_opensearch_docker_compose/`](docs/03-opensearch-docker.md/)
 OpenSearch cluster setup with Docker Compose:
 
-* [`docker-compose.yml`](formcept-devops-assessment/3_opensearch_docker_compose/docker-compose.yml): Multi-node OpenSearch + Dashboards setup
-* [`setup.sh`](formcept-devops-assessment/3_opensearch_docker_compose/setup.sh): One-click script to run the cluster
+* [`docker-compose.yml`](docker-compose/docker-compose.yml/): Multi-node OpenSearch + Dashboards setup
+* [`setup.sh`](scripts/setup-docker.sh): One-click script to run the cluster
 * `screenshot-setup.png`: Visual of running setup
 
 ### 4. 📊 Monitoring: Prometheus + Grafana
 
-**Path:** [`4_monitoring/`](formcept-devops-assessment/docs/04-monitoring-setup.md)
+**Path:** [`4_monitoring/`](docs/04-monitoring-setup.md/)
 Metrics collection and visualization configuration:
 
-* [`prometheus.yml`](formcept-devops-assessment/4_monitoring/prometheus.yml): Scrape configs for exporters
-* [`grafana-datasource.yaml`](formcept-devops-assessment/4_monitoring/grafana-datasource.yaml): Datasource configuration
-* [`grafana-dashboard.json`](formcept-devops-assessment/4_monitoring/grafana-dashboard.json): Dashboard layout (JSON)
+* [`prometheus.yml`](docker-compose/prometheus/prometheus.yml/): Scrape configs for exporters
+* [`grafana-datasource.yaml`](docker-compose/grafana/): Datasource configuration
+* [`grafana-dashboard.json`](docker-compose/grafana/provisioning/): Dashboard layout (JSON)
 * `screenshots/`: Folder containing actual dashboard visuals
 
 ### 5. ⚙️ Kubernetes Cluster via kubeadm
 
-**Path:** [`5_kubeadm/`](formcept-devops-assessment/docs/05-kubernetes-setup.md/)
+**Path:** [`5_kubeadm/`](docs/05-kubernetes-setup.md/)
 Bootstrap a Kubernetes cluster with containerd runtime:
 
-* [`kubeadm-init.sh`](formcept-devops-assessment/5_kubeadm/kubeadm-init.sh): Initialize master node
-* [`containerd-config.toml`](formcept-devops-assessment/5_kubeadm/containerd-config.toml): containerd configuration
-* [`node-join.sh`](formcept-devops-assessment/5_kubeadm/node-join.sh): Script to join worker nodes
+* [`kubeadm-init.sh`](kubernetes/): Initialize master node
+* [`containerd-config.toml`](kubernetes/namespace.yaml): containerd configuration
+* [`node-join.sh`](kubernetes/): Script to join worker nodes
 
 ### 6. 🧠 OpenSearch on Kubernetes
 
-**Path:** [`6_opensearch_k8s/`](formcept-devops-assessment/docs/06-opensearch-k8s.md/)
+**Path:** [`6_opensearch_k8s/`](docs/06-opensearch-k8s.md/)
 Deploy OpenSearch into a k8s cluster using manifests:
 
-* [`setup.sh`](formcept-devops-assessment/6_opensearch_k8s/setup.sh): Batch deploy all resources
+* [`setup.sh`](scripts/setup-kubernetes.sh/): Batch deploy all resources
 * `k8s/`: Includes all Kubernetes manifests:
 
-  * [`namespace.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/namespace.yaml)
-  * [`opensearch-deployment.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/opensearch-deployment.yaml)
-  * [`opensearch-service.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/opensearch-service.yaml)
-  * [`opensearch-statefulset.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/opensearch-statefulset.yaml)
+  * [`namespace.yaml`](kubernetes/namespace.yaml/)
+  * [`opensearch-deployment.yaml`](kubernetes/opensearch/)
+  * [`opensearch-service.yaml`](kubernetes/opensearch/)
+  * [`opensearch-statefulset.yaml`](kubernetes/opensearch/)
 
 ### 7. 🌐 Service Exposure: NodePort & Ingress
 
-**Path:** [`7_expose_opensearch/`](formcept-devops-assessment/docs/07-expose-services.md/)
+**Path:** [`7_expose_opensearch/`](/docs/07-expose-services.md/)
 Make OpenSearch accessible externally:
 
-* [`ingress.yaml`](formcept-devops-assessment/7_expose_opensearch/ingress.yaml): HTTP routing via domain names
-* [`nodeport-service.yaml`](formcept-devops-assessment/7_expose_opensearch/nodeport-service.yaml): Expose OpenSearch via static port
+* [`ingress.yaml`](kubernetes/ingress/opensearch-ingress.yaml/): HTTP routing via domain names
+* [`nodeport-service.yaml`](kubernetes/ingress/): Expose OpenSearch via static port
 
 ---
 
