@@ -1,44 +1,5 @@
-<h1 align="center">🚀 FORMCEPT DevOps Internship Assessment</h1>
-<h4 align="center">Comprehensive Containerization & Kubernetes Implementation by Jotheeshwaran V</h4>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/DevOps-Docker%2C%20Kubernetes-blue" />
-  <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%26%20Grafana-yellow" />
-  <img src="https://img.shields.io/badge/Cloud-Native-green" />
-  <img src="https://img.shields.io/badge/License-Educational-lightgrey" />
-</p>
-
----
 
 
----
-
-
-
-
-
-<h1 align="center" style="font-size:2.75rem; color:#2c3e50; font-weight:bold;">🚀 FORMCEPT DevOps Internship Assessment</h1>
-<h3 align="center" style="font-style:italic; color:#7f8c8d;">An End-to-End Cloud-Native DevOps Architecture by Jotheeshwaran V</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/DevOps-Containerization-blue" />
-  <img src="https://img.shields.io/badge/Platform-Kubernetes%20%7C%20Docker-green" />
-  <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%26%20Grafana-yellow" />
-  <img src="https://img.shields.io/badge/License-Educational-lightgrey" />
-</p>
-
----
-## 📋 Overview
-
-This repository presents a production-grade DevOps pipeline designed for educational purposes as part of the FORMCEPT internship evaluation. It showcases a complete workflow from container fundamentals to advanced service orchestration, ensuring observability, fault tolerance, and scalability.
-
-- **Docker & Docker Compose**
-- **OpenSearch Cluster**
-- **Prometheus & Grafana Monitoring**
-- **Kubernetes Cluster (kubeadm + containerd)**
-- **Service Exposure via NodePort & Ingress**
-
-<!-- FORMCEPT DevOps Internship Assessment - README with Animations -->
 
 <h1 align="center" style="font-size:3rem; font-weight:bold; color:#1f2937; animation: fadeInDown 1.5s ease-out;">🚀 FORMCEPT DevOps Internship Assessment</h1>
 <h3 align="center" style="color:#4b5563; font-style:italic; animation: fadeIn 2s ease-in-out;">An End-to-End Cloud-Native DevOps Architecture by Jotheeshwaran V</h3>
@@ -58,7 +19,7 @@ This repository presents a production-grade DevOps pipeline designed for educati
 This repository presents a production-grade DevOps pipeline designed for educational purposes as part of the FORMCEPT internship evaluation. It showcases a complete workflow from container fundamentals to advanced service orchestration, ensuring observability, fault tolerance, and scalability.
 </div>
 
-### 🎯 Objectives
+## 🎯 Objectives
 
 <div style="animation: slideIn 2s ease-in-out;">
 <ol>
@@ -71,6 +32,16 @@ This repository presents a production-grade DevOps pipeline designed for educati
   <li>Expose the OpenSearch cluster using NodePort and Ingress</li>
 </ol>
 </div>
+
+## Overview
+
+- **Docker & Docker Compose**
+- **OpenSearch Cluster**
+- **Prometheus & Grafana Monitoring**
+- **Kubernetes Cluster (kubeadm + containerd)**
+- **Service Exposure via NodePort & Ingress**
+
+<!-- FORMCEPT DevOps Internship Assessment - README with Animations -->
 
 ---
 
@@ -131,21 +102,6 @@ img:hover, h3:hover, p:hover, a:hover {
 <!-- The rest of the README continues here... include architecture, setup, monitoring, etc. -->
 
 
-> 📌 Candidate: **Jotheeshwaran V**  
-> 📧 Email: [jotheeshwaranv2002@gmail.com](mailto:jotheeshwaranv2002@gmail.com)  
-> 🔗 [LinkedIn](https://linkedin.com/in/jotheeshwaran-v) | 🌐 [Portfolio](https://unique-crepe-5ea0e0.netlify.app)
-
-
-## 📋 Executive Summary
-
-
-
-
-> 📌 **Author**: Jotheeshwaran V
-> 📧 [jotheeshwaranv2002@gmail.com](mailto:jotheeshwaranv2002@gmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/jotheeshwaran-v) | 🌍 [Portfolio](https://unique-crepe-5ea0e0.netlify.app)
-
----
-
 ## 🧰 Technology Stack
 
 | Category         | Tools & Technologies                        |
@@ -186,6 +142,29 @@ formcept-devops-assessment/
 ├── scripts/                     # Shell-based automation
 └── troubleshooting/             # Debugging & resolutions
 ```
+
+---
+
+
+## 📋 Task Breakdown
+
+| Step | Task | Description |
+|------|------|-------------|
+| ✅ 1 | 🧱 Containers Basics | Covered `chroot`, `container runtimes`, and container engines like Docker and containerd |
+| ✅ 2 | 🐳 Docker Setup | Installed Docker Engine with containerd as runtime backend |
+| ✅ 3 | 🛠️ OpenSearch with Docker Compose | Deployed a multi-node OpenSearch + Dashboard cluster via Compose |
+| ✅ 4 | 📊 Monitoring | Integrated Prometheus + Grafana to monitor OpenSearch metrics |
+| ✅ 5 | ☸️ Kubernetes Cluster | Initialized kubeadm-based k8s cluster with containerd runtime |
+| ✅ 6 | 🚀 OpenSearch on Kubernetes | Deployed OpenSearch pods, StatefulSets, PVCs and Services |
+| ✅ 7 | 🌐 Exposure | Exposed cluster via NodePort and configured Ingress Controller |
+
+---
+
+## 🧱 1. Container Basics
+
+> 🔍 Explored Linux primitives (`chroot`, namespaces, cgroups)  
+> 🛠️ Compared Docker vs containerd  
+> 📚 See [`docs/01-container-basics.md`](docs/01-container-basics.md)
 
 ---
 
@@ -333,5 +312,9 @@ resources:
 
 This codebase is created solely for the FORMCEPT Internship Assessment. All configurations and deployments are intended for educational use only.
 
-<p align="center" style="color:#7f8c8d; font-style:italic;">Crafted with precision, automation, and 💙 by Jotheeshwaran V</p>
+
+
+
+
+
 
