@@ -33,13 +33,6 @@ This repository presents a production-grade DevOps pipeline designed for educati
 </ol>
 </div>
 
-## Overview
-
-- **Docker & Docker Compose**
-- **OpenSearch Cluster**
-- **Prometheus & Grafana Monitoring**
-- **Kubernetes Cluster (kubeadm + containerd)**
-- **Service Exposure via NodePort & Ingress**
 
 <!-- FORMCEPT DevOps Internship Assessment - README with Animations -->
 
@@ -56,46 +49,6 @@ This repository presents a production-grade DevOps pipeline designed for educati
     🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jotheeshwaran-v" target="_blank">linkedin.com/in/jotheeshwaran-v</a>
   </p>
 </div>
-
----
-
-<style>
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeInDown {
-  0% { opacity: 0; transform: translateY(-20px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes zoomIn {
-  0% { transform: scale(0.8); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-
-@keyframes slideIn {
-  0% { opacity: 0; transform: translateX(-50px); }
-  100% { opacity: 1; transform: translateX(0); }
-}
-
-img:hover, h3:hover, p:hover, a:hover {
-  filter: brightness(1.1);
-  transition: 0.3s ease-in-out;
-}
-</style>
 
 ---
 
@@ -142,6 +95,78 @@ formcept-devops-assessment/
 ├── scripts/                     # Shell-based automation
 └── troubleshooting/             # Debugging & resolutions
 ```
+
+---
+
+
+## 📂 Directory Structure with Explanation & Links
+
+### 1. 🧱 Container Fundamentals
+
+**Path:** [`1_containers/`](formcept-devops-assessment/1_containers/)
+This section explains the foundational technologies that enable containers:
+
+* [`chroot_demo.sh`](formcept-devops-assessment/1_containers/chroot_demo.sh): Demo of filesystem isolation using `chroot`
+* [`containerd_runtime.md`](formcept-devops-assessment/1_containers/containerd_runtime.md): Role of container runtimes like `runc`, `crun`
+* [`engine_overview.md`](formcept-devops-assessment/1_containers/engine_overview.md): Overview of container engines like Docker, Podman
+
+### 2. 🐳 Docker with containerd
+
+**Path:** [`2_docker_containerd/`](formcept-devops-assessment/2_docker_containerd/)
+Covers Docker installation and configuration using containerd:
+
+* [`install_docker_containerd.sh`](formcept-devops-assessment/2_docker_containerd/install_docker_containerd.sh): Script to install Docker backed by containerd
+* [`docker-config.yaml`](formcept-devops-assessment/2_docker_containerd/docker-config.yaml): Docker daemon configuration file
+* [`README.md`](formcept-devops-assessment/2_docker_containerd/README.md): Additional notes on runtime
+
+### 3. 📦 OpenSearch with Docker Compose
+
+**Path:** [`3_opensearch_docker_compose/`](formcept-devops-assessment/3_opensearch_docker_compose/)
+OpenSearch cluster setup with Docker Compose:
+
+* [`docker-compose.yml`](formcept-devops-assessment/3_opensearch_docker_compose/docker-compose.yml): Multi-node OpenSearch + Dashboards setup
+* [`setup.sh`](formcept-devops-assessment/3_opensearch_docker_compose/setup.sh): One-click script to run the cluster
+* `screenshot-setup.png`: Visual of running setup
+
+### 4. 📊 Monitoring: Prometheus + Grafana
+
+**Path:** [`4_monitoring/`](formcept-devops-assessment/4_monitoring/)
+Metrics collection and visualization configuration:
+
+* [`prometheus.yml`](formcept-devops-assessment/4_monitoring/prometheus.yml): Scrape configs for exporters
+* [`grafana-datasource.yaml`](formcept-devops-assessment/4_monitoring/grafana-datasource.yaml): Datasource configuration
+* [`grafana-dashboard.json`](formcept-devops-assessment/4_monitoring/grafana-dashboard.json): Dashboard layout (JSON)
+* `screenshots/`: Folder containing actual dashboard visuals
+
+### 5. ⚙️ Kubernetes Cluster via kubeadm
+
+**Path:** [`5_kubeadm/`](formcept-devops-assessment/5_kubeadm/)
+Bootstrap a Kubernetes cluster with containerd runtime:
+
+* [`kubeadm-init.sh`](formcept-devops-assessment/5_kubeadm/kubeadm-init.sh): Initialize master node
+* [`containerd-config.toml`](formcept-devops-assessment/5_kubeadm/containerd-config.toml): containerd configuration
+* [`node-join.sh`](formcept-devops-assessment/5_kubeadm/node-join.sh): Script to join worker nodes
+
+### 6. 🧠 OpenSearch on Kubernetes
+
+**Path:** [`6_opensearch_k8s/`](formcept-devops-assessment/6_opensearch_k8s/)
+Deploy OpenSearch into a k8s cluster using manifests:
+
+* [`setup.sh`](formcept-devops-assessment/6_opensearch_k8s/setup.sh): Batch deploy all resources
+* `k8s/`: Includes all Kubernetes manifests:
+
+  * [`namespace.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/namespace.yaml)
+  * [`opensearch-deployment.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/opensearch-deployment.yaml)
+  * [`opensearch-service.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/opensearch-service.yaml)
+  * [`opensearch-statefulset.yaml`](formcept-devops-assessment/6_opensearch_k8s/k8s/opensearch-statefulset.yaml)
+
+### 7. 🌐 Service Exposure: NodePort & Ingress
+
+**Path:** [`7_expose_opensearch/`](formcept-devops-assessment/7_expose_opensearch/)
+Make OpenSearch accessible externally:
+
+* [`ingress.yaml`](formcept-devops-assessment/7_expose_opensearch/ingress.yaml): HTTP routing via domain names
+* [`nodeport-service.yaml`](formcept-devops-assessment/7_expose_opensearch/nodeport-service.yaml): Expose OpenSearch via static port
 
 ---
 
