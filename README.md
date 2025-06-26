@@ -1,20 +1,44 @@
-FORMCEPT DevOps Internship Assessment
-🚀 Complete Container & Kubernetes Implementation
-Candidate: Jotheeshwaran V
-Email: Jotheeshwaranv2002@gmail.com
-Phone: 8667782566
-LinkedIn: linkedin.com/in/jotheeshwaran-v
-Portfolio: unique-crepe-5ea0e0.netlify.app
+<h1 align="center">🚀 FORMCEPT DevOps Internship Assessment</h1>
+<h4 align="center">Comprehensive Containerization & Kubernetes Implementation by Jotheeshwaran V</h4>
 
-📋 Assessment Overview
-This repository contains a comprehensive implementation of containerization and orchestration technologies, demonstrating proficiency in:
+<p align="center">
+  <img src="https://img.shields.io/badge/DevOps-Docker%2C%20Kubernetes-blue" />
+  <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%26%20Grafana-yellow" />
+  <img src="https://img.shields.io/badge/Cloud-Native-green" />
+  <img src="https://img.shields.io/badge/License-Educational-lightgrey" />
+</p>
 
-Container Fundamentals (chroot, runtimes, engines)
-Docker & Docker Compose setup and configuration
-OpenSearch cluster deployment and management
-Monitoring Stack with Prometheus & Grafana
-Kubernetes cluster creation and management
-Service Exposure via NodePorts and Ingress
+---
+
+## 📋 Overview
+
+This repository showcases a full-stack DevOps solution covering containerization, orchestration, monitoring, and deployment using:
+
+- **Docker & Docker Compose**
+- **OpenSearch Cluster**
+- **Prometheus & Grafana Monitoring**
+- **Kubernetes Cluster (kubeadm + containerd)**
+- **Service Exposure via NodePort & Ingress**
+
+> 📌 Candidate: **Jotheeshwaran V**  
+> 📧 Email: [jotheeshwaranv2002@gmail.com](mailto:jotheeshwaranv2002@gmail.com)  
+> 🔗 [LinkedIn](https://linkedin.com/in/jotheeshwaran-v) | 🌐 [Portfolio](https://unique-crepe-5ea0e0.netlify.app)
+
+---
+
+## 🏗️ Architecture Diagram
+
+┌─────────────────────────────────────────────────────────────┐
+│ Complete Architecture │
+├─────────────────────────────────────────────────────────────┤
+│ Docker Setup ┌────────────┐ Kubernetes Cluster │
+│ ┌────────────┐ │ OpenSearch │ ┌────────────┐ │
+│ │ Dashboards │ │ Cluster │ │ StatefulSet│ │
+│ └────────────┘ └────────────┘ └────────────┘ │
+│ │ │ │ │
+│ ┌────────────┐ ┌────────────┐ ┌────────────┐ │
+│ │ Prometheus │◄────►│ Node Export│ │ Grafana │ │
+└─────────────────────────────────────────────────────────────┘
 
 
 🏗️ Architecture Diagram
