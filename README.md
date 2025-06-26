@@ -112,12 +112,12 @@ This section explains the foundational technologies that enable containers:
 
 ### 2. 🐳 Docker with containerd
 
-**Path:** [`2_docker_containerd/`](formcept-devops-assessment/docs/02-docker-setup.md/)
+**Path:** [`2_docker_containerd/`](docs/02-docker-setup.md/)
 Covers Docker installation and configuration using containerd:
 
-* [`install_docker_containerd.sh`](formcept-devops-assessment/docker-compose/docker-compose.yml/): Script to install Docker backed by containerd
-* [`docker-config.yaml`](formcept-devops-assessment/docker-compose/): Docker daemon configuration file
-* [`README.md`](formcept-devops-assessment/docker-compose/): Additional notes on runtime
+* [`install_docker_containerd.sh`](/docker-compose/docker-compose.yml/): Script to install Docker backed by containerd
+* [`docker-config.yaml`](/docker-compose/): Docker daemon configuration file
+* [`README.md`](/docker-compose/): Additional notes on runtime
 
 ### 3. 📦 OpenSearch with Docker Compose
 
