@@ -31,3 +31,20 @@ spec:
           limits:
             memory: "1Gi"
             cpu: "500m"
+#--
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: opensearch-dashboards
+  namespace: opensearch
+spec:
+  type: NodePort
+  selector:
+    app: opensearch-dashboards
+  ports:
+  - name: http
+    port: 5601
+    targetPort: 5601
+    nodePort: 30561
+
