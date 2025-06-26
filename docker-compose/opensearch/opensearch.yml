@@ -1,1 +1,28 @@
 
+# docker-compose/opensearch/opensearch.yml
+cluster.name: opensearch-cluster
+
+# Bind to all interfaces
+network.host: 0.0.0.0
+
+# HTTP port
+http.port: 9200
+
+# Transport port
+transport.port: 9300
+
+# Disable security for simplicity (not recommended for production)
+plugins.security.disabled: true
+
+# Cluster settings
+discovery.type: multi-node
+cluster.initial_cluster_manager_nodes: ["opensearch-node1", "opensearch-node2", "opensearch-node3"]
+
+# Node roles
+node.roles: [cluster_manager, data, ingest]
+
+# Memory settings
+bootstrap.memory_lock: true
+
+# Logging
+logger.level: INFO
