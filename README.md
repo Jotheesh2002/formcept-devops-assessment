@@ -103,25 +103,25 @@ formcept-devops-assessment/
 
 ### 1. 🧱 Container Fundamentals
 
-**Path:** [`1_containers/`](formcept-devops-assessment/1_containers/)
+**Path:** [`1_containers/`](formcept-devops-assessment/docs/01-container-basics.md)
 This section explains the foundational technologies that enable containers:
 
-* [`chroot_demo.sh`](formcept-devops-assessment/1_containers/chroot_demo.sh): Demo of filesystem isolation using `chroot`
-* [`containerd_runtime.md`](formcept-devops-assessment/1_containers/containerd_runtime.md): Role of container runtimes like `runc`, `crun`
-* [`engine_overview.md`](formcept-devops-assessment/1_containers/engine_overview.md): Overview of container engines like Docker, Podman
+* [`chroot_demo.sh`](formcept-devops-assessment/docs/01-container-basics.md/chroot_demo.sh): Demo of filesystem isolation using `chroot`
+* [`containerd_runtime.md`](formcept-devops-assessment/docs/01-container-basics.md/containerd_runtime.md): Role of container runtimes like `runc`, `crun`
+* [`engine_overview.md`](formcept-devops-assessment/docs/01-container-basics.md/engine_overview.md): Overview of container engines like Docker, Podman
 
 ### 2. 🐳 Docker with containerd
 
-**Path:** [`2_docker_containerd/`](formcept-devops-assessment/2_docker_containerd/)
+**Path:** [`2_docker_containerd/`](formcept-devops-assessment/docs/02-docker-setup.md/)
 Covers Docker installation and configuration using containerd:
 
-* [`install_docker_containerd.sh`](formcept-devops-assessment/2_docker_containerd/install_docker_containerd.sh): Script to install Docker backed by containerd
-* [`docker-config.yaml`](formcept-devops-assessment/2_docker_containerd/docker-config.yaml): Docker daemon configuration file
-* [`README.md`](formcept-devops-assessment/2_docker_containerd/README.md): Additional notes on runtime
+* [`install_docker_containerd.sh`](formcept-devops-assessment/docs/02-docker-setup.md/install_docker_containerd.sh): Script to install Docker backed by containerd
+* [`docker-config.yaml`](formcept-devops-assessment/docs/02-docker-setup.md/docker-config.yaml): Docker daemon configuration file
+* [`README.md`](formcept-devops-assessment/README.md): Additional notes on runtime
 
 ### 3. 📦 OpenSearch with Docker Compose
 
-**Path:** [`3_opensearch_docker_compose/`](formcept-devops-assessment/3_opensearch_docker_compose/)
+**Path:** [`3_opensearch_docker_compose/`](formcept-devops-assessment/docs/03-opensearch-docker.md/)
 OpenSearch cluster setup with Docker Compose:
 
 * [`docker-compose.yml`](formcept-devops-assessment/3_opensearch_docker_compose/docker-compose.yml): Multi-node OpenSearch + Dashboards setup
@@ -130,7 +130,7 @@ OpenSearch cluster setup with Docker Compose:
 
 ### 4. 📊 Monitoring: Prometheus + Grafana
 
-**Path:** [`4_monitoring/`](formcept-devops-assessment/4_monitoring/)
+**Path:** [`4_monitoring/`](formcept-devops-assessment/docs/04-monitoring-setup.md)
 Metrics collection and visualization configuration:
 
 * [`prometheus.yml`](formcept-devops-assessment/4_monitoring/prometheus.yml): Scrape configs for exporters
@@ -140,7 +140,7 @@ Metrics collection and visualization configuration:
 
 ### 5. ⚙️ Kubernetes Cluster via kubeadm
 
-**Path:** [`5_kubeadm/`](formcept-devops-assessment/5_kubeadm/)
+**Path:** [`5_kubeadm/`](formcept-devops-assessment/docs/05-kubernetes-setup.md/)
 Bootstrap a Kubernetes cluster with containerd runtime:
 
 * [`kubeadm-init.sh`](formcept-devops-assessment/5_kubeadm/kubeadm-init.sh): Initialize master node
@@ -149,7 +149,7 @@ Bootstrap a Kubernetes cluster with containerd runtime:
 
 ### 6. 🧠 OpenSearch on Kubernetes
 
-**Path:** [`6_opensearch_k8s/`](formcept-devops-assessment/6_opensearch_k8s/)
+**Path:** [`6_opensearch_k8s/`](formcept-devops-assessment/docs/06-opensearch-k8s.md/)
 Deploy OpenSearch into a k8s cluster using manifests:
 
 * [`setup.sh`](formcept-devops-assessment/6_opensearch_k8s/setup.sh): Batch deploy all resources
@@ -162,7 +162,7 @@ Deploy OpenSearch into a k8s cluster using manifests:
 
 ### 7. 🌐 Service Exposure: NodePort & Ingress
 
-**Path:** [`7_expose_opensearch/`](formcept-devops-assessment/7_expose_opensearch/)
+**Path:** [`7_expose_opensearch/`](formcept-devops-assessment/docs/07-expose-services.md/)
 Make OpenSearch accessible externally:
 
 * [`ingress.yaml`](formcept-devops-assessment/7_expose_opensearch/ingress.yaml): HTTP routing via domain names
