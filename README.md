@@ -103,12 +103,12 @@ formcept-devops-assessment/
 
 ### 1. 🧱 Container Fundamentals
 
-**Path:** [`1_containers/`](formcept-devops-assessment/docs/01-container-basics.md)
+**Path:** [`1_containers/`](docs/01-container-basics.md/)
 This section explains the foundational technologies that enable containers:
 
-* [`chroot_demo.sh`](formcept-devops-assessment/docs/01-container-basics.md/chroot_demo.sh): Demo of filesystem isolation using `chroot`
-* [`containerd_runtime.md`](formcept-devops-assessment/docs/01-container-basics.md/containerd_runtime.md): Role of container runtimes like `runc`, `crun`
-* [`engine_overview.md`](formcept-devops-assessment/docs/01-container-basics.md/engine_overview.md): Overview of container engines like Docker, Podman
+* [`chroot_demo.sh`](docs/01-container-basics.md/): Demo of filesystem isolation using `chroot`
+* [`containerd_runtime.md`](docs/01-container-basics.md/): Role of container runtimes like `runc`, `crun`
+* [`engine_overview.md`](docs/01-container-basics.md/): Overview of container engines like Docker, Podman
 
 ### 2. 🐳 Docker with containerd
 
@@ -117,7 +117,7 @@ Covers Docker installation and configuration using containerd:
 
 * [`install_docker_containerd.sh`](/docker-compose/docker-compose.yml/): Script to install Docker backed by containerd
 * [`docker-config.yaml`](/docker-compose/): Docker daemon configuration file
-* [`README.md`](/docker-compose/): Additional notes on runtime
+* [`README.md`](docs/02-docker-setup.md/): Additional notes on runtime
 
 ### 3. 📦 OpenSearch with Docker Compose
 
@@ -145,7 +145,7 @@ Bootstrap a Kubernetes cluster with containerd runtime:
 
 * [`kubeadm-init.sh`](kubernetes/): Initialize master node
 * [`containerd-config.toml`](kubernetes/namespace.yaml): containerd configuration
-* [`node-join.sh`](kubernetes/): Script to join worker nodes
+* [`node-join.sh`](docs/05-kubernetes-setup.md/): Script to join worker nodes
 
 ### 6. 🧠 OpenSearch on Kubernetes
 
@@ -156,7 +156,7 @@ Deploy OpenSearch into a k8s cluster using manifests:
 * `k8s/`: Includes all Kubernetes manifests:
 
   * [`namespace.yaml`](kubernetes/namespace.yaml/)
-  * [`opensearch-deployment.yaml`](kubernetes/opensearch/)
+  * [`opensearch-deployment.yaml`](docs/06-opensearch-k8s.md/)
   * [`opensearch-service.yaml`](kubernetes/opensearch/)
   * [`opensearch-statefulset.yaml`](kubernetes/opensearch/)
 
