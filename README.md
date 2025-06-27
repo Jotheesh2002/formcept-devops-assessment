@@ -1,4 +1,4 @@
-
+![Architecture](https://github.com/user-attachments/assets/2242e447-7e3b-4077-84b7-7d1725b2170d)
 
 
 <h1 align="center" style="font-size:3rem; font-weight:bold; color:#1f2937; animation: fadeInDown 1.5s ease-out;">🚀 FORMCEPT DevOps Internship Assessment</h1>
@@ -70,11 +70,12 @@ This repository presents a production-grade DevOps pipeline designed for educati
 ---
 
 ## 🧱 High-Level Architecture
-
+<div>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jotheeshwaran-v/formcept-devops-assessment/main/docs/images/architecture-diagram.png" alt="Full System Architecture" width="850" />
+  <img src="./screenshots/Architecture.png/
+" width="120" style="border-radius: 50%; border: 4px solid #2563eb; animation: pulse 3s infinite />
 </p>
-
+</div>
 ### 🔑 Key Components
 
 * **Docker Layer**: Containerized OpenSearch stack with Dashboards
