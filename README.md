@@ -41,7 +41,7 @@ This repository presents a production-grade DevOps pipeline designed for educati
 ## 👨‍💻 Author
 
 <div align="center" style="margin-top: 2rem; margin-bottom: 2rem; animation: fadeInUp 2s ease-in-out;">
-  <img src="https://avatars.githubusercontent.com/u/106529556?v=4" width="120" style="border-radius: 50%; border: 4px solid #2563eb; animation: pulse 3s infinite;" alt="Jotheeshwaran Avatar">
+  <img src="./screenshots/joshpics.jpg" width="120" style="border-radius: 50%; border: 4px solid #2563eb; animation: pulse 3s infinite;" alt="Jotheeshwaran Avatar">
   <h3 style="color:#1d4ed8; font-weight:700; font-size:1.75rem; margin-top: 0.5rem; animation: zoomIn 1s ease-in-out;">Jotheeshwaran V</h3>
   <p style="color:#6b7280; font-size:1.05rem;">
     📧 <strong>Email:</strong> <a href="mailto:jotheeshwaranv2002@gmail.com">jotheeshwaranv2002@gmail.com</a><br/>
@@ -254,6 +254,35 @@ kubectl get pods -n opensearch
 <p align="center">
   <img src="https://raw.githubusercontent.com/jotheeshwaran-v/formcept-devops-assessment/main/docs/images/grafana-dashboard.png" width="850" alt="Grafana Dashboard Overview" />
 </p>
+
+
+## 📷 Output Screenshots
+
+### ✅ API Output
+
+![API Output](./screenshots/API-Output.png)
+
+### 🐳 Docker Runtime
+
+![Docker Runtime](./screenshots/Docker.png)
+
+### 📦 Kubernetes Pods
+
+![K8s Deployment](./screenshots/K8-Deployment.png)
+
+### 📈 Prometheus Targets
+
+![Monitoring](./screenshots/Monitoring.png)
+
+### 📊 OpenSearch Grafana Dashboard
+
+![Visualization](./screenshots/Visualization.png)
+
+### ⚙️ Kubectl Node Output
+
+![Kubectl Output](./screenshots/kubectl.png)
+
+---
 
 ### Observability Coverage
 
