@@ -1,4 +1,3 @@
-![Architecture](https://github.com/user-attachments/assets/2242e447-7e3b-4077-84b7-7d1725b2170d)
 
 
 <h1 align="center" style="font-size:3rem; font-weight:bold; color:#1f2937; animation: fadeInDown 1.5s ease-out;">🚀 FORMCEPT DevOps Internship Assessment</h1>
@@ -70,10 +69,11 @@ This repository presents a production-grade DevOps pipeline designed for educati
 ---
 
 ## 🧱 High-Level Architecture
-<div>
-  <img src="
-" width="120" style="border-radius: 50%; border: 4px solid #2563eb; animation: pulse 3s infinite />
+<div align="center" style="margin-top: 2rem; margin-bottom: 2rem; animation: fadeInUp 2s ease-in-out;">
+  <img src="https://github.com/user-attachments/assets/2242e447-7e3b-4077-84b7-7d1725b2170d" alt="Architecture" style="width: 60%; height: auto;" />
 </div>
+
+
 ### 🔑 Key Components
 
 * **Docker Layer**: Containerized OpenSearch stack with Dashboards
@@ -255,31 +255,43 @@ kubectl get pods -n opensearch
 </p>
 
 
-## 📷 Output Screenshots
+<h2>📷 Output Screenshots</h2>
 
-### ✅ API Output
+<!-- Row 1 -->
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>✅ API Output</h3>
+    <img src="./screenshots/API-Output.png" alt="API Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>🐳 Docker Runtime</h3>
+    <img src="./screenshots/Docker.png" alt="Docker Runtime" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+</div>
 
-![API Output](./screenshots/API-Output.png)
+<!-- Row 2 -->
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>📦 Kubernetes Pods</h3>
+    <img src="./screenshots/K8-Deployment.png" alt="Kubernetes Pods" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>📈 Prometheus Targets</h3>
+    <img src="./screenshots/Monitoring.png" alt="Prometheus Targets" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+</div>
 
-### 🐳 Docker Runtime
-
-![Docker Runtime](./screenshots/Docker.png)
-
-### 📦 Kubernetes Pods
-
-![K8s Deployment](./screenshots/K8-Deployment.png)
-
-### 📈 Prometheus Targets
-
-![Monitoring](./screenshots/Monitoring.png)
-
-### 📊 OpenSearch Grafana Dashboard
-
-![Visualization](./screenshots/Visualization.png)
-
-### ⚙️ Kubectl Node Output
-
-![Kubectl Output](./screenshots/kubectl.png)
+<!-- Row 3 -->
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>📊 OpenSearch Grafana Dashboard</h3>
+    <img src="./screenshots/Visualization.png" alt="Grafana Dashboard" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>⚙️ Kubectl Node Output</h3>
+    <img src="./screenshots/kubectl.png" alt="Kubectl Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+</div>
 
 ---
 
