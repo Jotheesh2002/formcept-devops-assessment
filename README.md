@@ -71,10 +71,8 @@ This repository presents a production-grade DevOps pipeline designed for educati
 
 ## 🧱 High-Level Architecture
 <div>
-<p align="center">
-  <img src="./screenshots/Architecture.png/
+  <img src="
 " width="120" style="border-radius: 50%; border: 4px solid #2563eb; animation: pulse 3s infinite />
-</p>
 </div>
 ### 🔑 Key Components
 
