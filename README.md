@@ -245,7 +245,7 @@ kubectl get pods -n opensearch
 ## 📊 Monitoring Dashboards
 
 <p align="center">
-  <img src="./screenshots/Grafana_overview.png" width="850" alt="Grafana Dashboard Overview" />
+  <img src="./screenshots/Grafana_overview.png" width="550" alt="Grafana Dashboard Overview" />
 </p>
 
 
