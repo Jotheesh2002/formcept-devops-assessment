@@ -103,7 +103,7 @@ formcept-devops-assessment/
 ### 1. 🧱 Container Fundamentals
 
 **Path:** [`1_containers/`](docs/01-container-basics.md/)
-This section explains the foundational technologies that enable containers with detailed Documentation
+This section explains the foundational technologies that enable containers with detailed Documentation.
 
 *   Container Fundamentals - Core technologies (namespaces, cgroups, filesystems)
 *   Core Technologies Deep Dive - Detailed technical exploration
@@ -113,7 +113,7 @@ This section explains the foundational technologies that enable containers with 
 ### 2. 🐳 Docker with containerd
 
 **Path:** [`docs/02-docker-setup.md`](docs/02-docker-setup.md/)
-Covers Docker installation and configuration using containerd Documentation
+Covers Docker installation and configuration using containerd Documentation.
 
 * [`install_docker_containerd.sh`](scripts/setup-docker.sh/): Script to install Docker backed by containerd and Docker daemon configuration file
 
@@ -129,7 +129,7 @@ OpenSearch cluster setup with Docker Compose Documentation
 ### 4. 📊 Monitoring: Prometheus + Grafana
 
 **Path:** [`4_monitoring/`](docs/04-monitoring-setup.md/)
-Details Prometheus and Grafana setup for monitoring the OpenSearch cluster.
+Details Prometheus and Grafana setup for monitoring the OpenSearch cluster Documentation.
 
 * [`prometheus.yml`](docker-compose/prometheus/prometheus.yml/): Configures Prometheus scrape targets, including OpenSearch metrics endpoint for monitoring.
 
