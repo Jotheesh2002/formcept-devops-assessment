@@ -1,11 +1,5 @@
 
 
-## 🐳 Docker Setup for OpenSearch Deployment
-
-### Purpose
-
-Complete Docker installation and configuration guide for running OpenSearch containers
-
 ### Docker Engine Installation
 
 #### Ubuntu/Debian
