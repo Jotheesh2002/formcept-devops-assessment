@@ -124,6 +124,7 @@ OpenSearch cluster setup with Docker Compose Documentation
 
 * [`docker-compose.yml`](docker-compose/docker-compose.yml/): Defines and runs multi-container Docker applications using a YAML file
 * [`opensearch.yml`](docker-compose/opensearch/opensearch.yml): Defines a single-node OpenSearch service using Docker Compose for local deployment.
+* [`Deploy.sh`](scripts/deploy-opensearch-docker.sh): Automates deployment of OpenSearch using Docker Compose for local setup.
 
 
 ### 4. 📊 Monitoring: Prometheus + Grafana
@@ -133,7 +134,7 @@ Details Prometheus and Grafana setup for monitoring the OpenSearch cluster Docum
 
 * [`prometheus.yml`](docker-compose/prometheus/prometheus.yml/): Configures Prometheus scrape targets, including OpenSearch metrics endpoint for monitoring.
 
-* [`grafana-datasource.yaml`](docker-compose/grafana/): Provides Grafana service setup with dashboards for visualizing OpenSearch metrics.
+* [`grafana.yaml`](kubernetes/monitoring/grafana.yaml): Provides Grafana service setup with dashboards for visualizing OpenSearch metrics.
 
 
 ### 5. ⚙️ Kubernetes Cluster via kubeadm
@@ -154,7 +155,7 @@ Guides deployment of OpenSearch in Kubernetes using manifests and services.
 * [`Deploy-k8s.sh`](scripts/deploy-opensearch-k8s.sh): Script to deploy OpenSearch on a Kubernetes cluster using kubectl manifests.
 
 
-  * [`opensearch-master.yaml`](kubernetes/opensearch/opensearch-master.yaml): Defines the StatefulSet and configuration for the OpenSearch master node.
+  
   * [`opensearch-data.yaml`](kubernetes/opensearch/opensearch-data.yaml): Deploys OpenSearch data nodes using a StatefulSet for persistent storage.
   * [`opensearch-dashboards.yaml`](kubernetes/opensearch/opensearch-dashboards.yaml): Deploys OpenSearch Dashboards for visualizing and interacting with OpenSearch data.
     
@@ -163,11 +164,11 @@ Guides deployment of OpenSearch in Kubernetes using manifests and services.
 ### 7. 🌐 Service Exposure: NodePort & Ingress
 
 **Path:** [`7_expose_opensearch/`](/docs/07-expose-services.md/)
-Make OpenSearch accessible externally:
+ Explains how to expose OpenSearch services using NodePort and Ingress methods in Kubernetes.
 
-* [`ingress.yaml`](kubernetes/ingress/opensearch-ingress.yaml/): HTTP routing via domain names
-* [`nodeport-service.yaml`](kubernetes/ingress/): Expose OpenSearch via static port
-
+* [`ingress.yaml`](kubernetes/ingress/opensearch-ingress.yaml/): Configures Ingress resource to expose OpenSearch and Dashboards via domain-based routing.
+* [`opensearch-master.yaml`](kubernetes/opensearch/opensearch-master.yaml): Defines the StatefulSet and configuration for the OpenSearch master node.
+  
 ---
 
 
