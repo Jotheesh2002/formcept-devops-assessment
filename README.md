@@ -267,6 +267,10 @@ kubectl get pods -n opensearch
     <h3>🐳 Docker Runtime</h3>
     <img src="./screenshots/Docker.png" alt="Docker Runtime" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>⚙️ Docker Ps Output</h3>
+    <img src="./screenshots/Docker-ps.jpeg" alt="Docker Ps Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
 </div>
 
 <!-- Row 2 -->
@@ -290,6 +294,10 @@ kubectl get pods -n opensearch
   <div style="flex: 1 1 45%; text-align: center;">
     <h3>⚙️ Kubectl Node Output</h3>
     <img src="./screenshots/kubectl.png" alt="Kubectl Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+<div style="flex: 1 1 45%; text-align: center;">
+    <h3>⚙️ Kubeadm Init Output</h3>
+    <img src="./screenshots/kubeadm.jpeg" alt="Kubeadm Init Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
 </div>
 
