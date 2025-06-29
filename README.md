@@ -115,36 +115,33 @@ This section explains the foundational technologies that enable containers with 
 **Path:** [`docs/02-docker-setup.md`](docs/02-docker-setup.md/)
 Covers Docker installation and configuration using containerd Documentation
 
-* [`install_docker_containerd.sh`](scripts/setup-docker.sh/):
-* Script to install Docker backed by containerd
-* Docker daemon configuration file
+* [`install_docker_containerd.sh`](scripts/setup-docker.sh/): Script to install Docker backed by containerd and Docker daemon configuration file
 
 ### 3. 📦 OpenSearch with Docker Compose
 
 **Path:** [`3_opensearch_docker_compose/`](docs/03-opensearch-docker.md/)
-OpenSearch cluster setup with Docker Compose:
+OpenSearch cluster setup with Docker Compose Documentation
 
-* [`docker-compose.yml`](docker-compose/docker-compose.yml/): Multi-node OpenSearch + Dashboards setup
-* [`setup.sh`](scripts/setup-docker.sh): One-click script to run the cluster
+* [`docker-compose.yml`](docker-compose/docker-compose.yml/): Defines and runs multi-container Docker applications using a YAML file.
+
 
 
 ### 4. 📊 Monitoring: Prometheus + Grafana
 
 **Path:** [`4_monitoring/`](docs/04-monitoring-setup.md/)
-Metrics collection and visualization configuration:
+Details Prometheus and Grafana setup for monitoring the OpenSearch cluster.
 
-* [`prometheus.yml`](docker-compose/prometheus/prometheus.yml/): Scrape configs for exporters
-* [`grafana-datasource.yaml`](docker-compose/grafana/): Datasource configuration
+* [`prometheus.yml`](docker-compose/prometheus/prometheus.yml/): Configures Prometheus scrape targets, including OpenSearch metrics endpoint for monitoring.
+
+* [`grafana-datasource.yaml`](docker-compose/grafana/): Provides Grafana service setup with dashboards for visualizing OpenSearch metrics.
 
 
 ### 5. ⚙️ Kubernetes Cluster via kubeadm
 
 **Path:** [`5_kubeadm/`](docs/05-kubernetes-setup.md/)
-Bootstrap a Kubernetes cluster with containerd runtime:
+Bootstrap a Kubernetes cluster with containerd runtime Documentation
 
-* [`kubeadm-init.sh`](./screenshots/kubeadm.jpeg/): Initialize master node
-* [`containerd-config.toml`](kubernetes/namespace.yaml): containerd configuration
-* [`node-join.sh`](docs/05-kubernetes-setup.md/): Script to join worker nodes
+*  Initialize master node ,containerd configuration and Script to join worker nodes
 
 ### 6. 🧠 OpenSearch on Kubernetes
 
