@@ -116,7 +116,6 @@ Covers Docker installation and configuration using containerd:
 
 * [`install_docker_containerd.sh`](/docker-compose/docker-compose.yml/): Script to install Docker backed by containerd
 * [`docker-config.yaml`](/docker-compose/): Docker daemon configuration file
-* [`README.md`](docs/02-docker-setup.md/): Additional notes on runtime
 
 ### 3. 📦 OpenSearch with Docker Compose
 
@@ -125,7 +124,7 @@ OpenSearch cluster setup with Docker Compose:
 
 * [`docker-compose.yml`](docker-compose/docker-compose.yml/): Multi-node OpenSearch + Dashboards setup
 * [`setup.sh`](scripts/setup-docker.sh): One-click script to run the cluster
-* `screenshot-setup.png`: Visual of running setup
+
 
 ### 4. 📊 Monitoring: Prometheus + Grafana
 
@@ -134,8 +133,7 @@ Metrics collection and visualization configuration:
 
 * [`prometheus.yml`](docker-compose/prometheus/prometheus.yml/): Scrape configs for exporters
 * [`grafana-datasource.yaml`](docker-compose/grafana/): Datasource configuration
-* [`grafana-dashboard.json`](docker-compose/grafana/provisioning/): Dashboard layout (JSON)
-* `screenshots/`: Folder containing actual dashboard visuals
+
 
 ### 5. ⚙️ Kubernetes Cluster via kubeadm
 
@@ -157,7 +155,7 @@ Deploy OpenSearch into a k8s cluster using manifests:
   * [`namespace.yaml`](kubernetes/namespace.yaml/)
   * [`opensearch-deployment.yaml`](docs/06-opensearch-k8s.md/)
   * [`opensearch-service.yaml`](kubernetes/opensearch/)
-  * [`opensearch-statefulset.yaml`](kubernetes/opensearch/)
+
 
 ### 7. 🌐 Service Exposure: NodePort & Ingress
 
