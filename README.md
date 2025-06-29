@@ -103,7 +103,7 @@ formcept-devops-assessment/
 ### 1. 🧱 Container Fundamentals
 
 **Path:** [`1_containers/`](docs/01-container-basics.md/)
-This section explains the foundational technologies that enable containers:
+This section explains the foundational technologies that enable containers with detailed Documentation
 
 *   Container Fundamentals - Core technologies (namespaces, cgroups, filesystems)
 *   Core Technologies Deep Dive - Detailed technical exploration
@@ -112,11 +112,12 @@ This section explains the foundational technologies that enable containers:
 
 ### 2. 🐳 Docker with containerd
 
-**Path:** [`2_docker_containerd/`](docs/02-docker-setup.md/)
-Covers Docker installation and configuration using containerd:
+**Path:** [`docs/02-docker-setup.md`](docs/02-docker-setup.md/)
+Covers Docker installation and configuration using containerd Documentation
 
-* [`install_docker_containerd.sh`](/docker-compose/docker-compose.yml/): Script to install Docker backed by containerd
-* [`docker-config.yaml`](/docker-compose/): Docker daemon configuration file
+* [`install_docker_containerd.sh`](scripts/setup-docker.sh/):
+* Script to install Docker backed by containerd
+* Docker daemon configuration file
 
 ### 3. 📦 OpenSearch with Docker Compose
 
