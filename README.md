@@ -105,9 +105,10 @@ formcept-devops-assessment/
 **Path:** [`1_containers/`](docs/01-container-basics.md/)
 This section explains the foundational technologies that enable containers:
 
-* [`chroot_demo.sh`](docs/01-container-basics.md/): Demo of filesystem isolation using `chroot`
-* [`containerd_runtime.md`](docs/01-container-basics.md/): Role of container runtimes like `runc`, `crun`
-* [`engine_overview.md`](docs/01-container-basics.md/): Overview of container engines like Docker, Podman
+*   Container Fundamentals - Core technologies (namespaces, cgroups, filesystems)
+*   Core Technologies Deep Dive - Detailed technical exploration
+*   Container Runtimes - Docker, containerd, alternatives
+
 
 ### 2. 🐳 Docker with containerd
 
@@ -140,7 +141,7 @@ Metrics collection and visualization configuration:
 **Path:** [`5_kubeadm/`](docs/05-kubernetes-setup.md/)
 Bootstrap a Kubernetes cluster with containerd runtime:
 
-* [`kubeadm-init.sh`](kubernetes/): Initialize master node
+* [`kubeadm-init.sh`](./screenshots/kubeadm.jpeg/): Initialize master node
 * [`containerd-config.toml`](kubernetes/namespace.yaml): containerd configuration
 * [`node-join.sh`](docs/05-kubernetes-setup.md/): Script to join worker nodes
 
@@ -179,14 +180,6 @@ Make OpenSearch accessible externally:
 | ✅ 5 | ☸️ Kubernetes Cluster | Initialized kubeadm-based k8s cluster with containerd runtime |
 | ✅ 6 | 🚀 OpenSearch on Kubernetes | Deployed OpenSearch pods, StatefulSets, PVCs and Services |
 | ✅ 7 | 🌐 Exposure | Exposed cluster via NodePort and configured Ingress Controller |
-
----
-
-## 🧱 1. Container Basics
-
-> 🔍 Explored Linux primitives (`chroot`, namespaces, cgroups)  
-> 🛠️ Compared Docker vs containerd  
-> 📚 See [`docs/01-container-basics.md`](docs/01-container-basics.md)
 
 ---
 
