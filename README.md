@@ -147,14 +147,17 @@ Documents step-by-step Kubernetes cluster setup using kubeadm and containerd.
 ### 6. 🧠 OpenSearch on Kubernetes
 
 **Path:** [`6_opensearch_k8s/`](docs/06-opensearch-k8s.md/)
-Deploy OpenSearch into a k8s cluster using manifests:
+Guides deployment of OpenSearch in Kubernetes using manifests and services.
 
-* [`setup.sh`](scripts/setup-kubernetes.sh/): Batch deploy all resources
-* `k8s/`: Includes all Kubernetes manifests:
+* [`setup.sh`](scripts/setup-kubernetes.sh/): Shell script to automate Kubernetes installation and initialization with containerd.
+  
+* [`Deploy-k8s.sh`](scripts/deploy-opensearch-k8s.sh): Script to deploy OpenSearch on a Kubernetes cluster using kubectl manifests.
 
-  * [`namespace.yaml`](kubernetes/namespace.yaml/)
-  * [`opensearch-deployment.yaml`](docs/06-opensearch-k8s.md/)
-  * [`opensearch-service.yaml`](kubernetes/opensearch/)
+
+  * [`opensearch-master.yaml`](kubernetes/opensearch/opensearch-master.yaml): Defines the StatefulSet and configuration for the OpenSearch master node.
+  * [`opensearch-data.yaml`](kubernetes/opensearch/opensearch-data.yaml): Deploys OpenSearch data nodes using a StatefulSet for persistent storage.
+  * [`opensearch-dashboards.yaml`](kubernetes/opensearch/opensearch-dashboards.yaml): Deploys OpenSearch Dashboards for visualizing and interacting with OpenSearch data.
+    
 
 
 ### 7. 🌐 Service Exposure: NodePort & Ingress
