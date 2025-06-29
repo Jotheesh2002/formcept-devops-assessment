@@ -122,8 +122,8 @@ Covers Docker installation and configuration using containerd Documentation.
 **Path:** [`3_opensearch_docker_compose/`](docs/03-opensearch-docker.md/)
 OpenSearch cluster setup with Docker Compose Documentation
 
-* [`docker-compose.yml`](docker-compose/docker-compose.yml/): Defines and runs multi-container Docker applications using a YAML file.
-
+* [`docker-compose.yml`](docker-compose/docker-compose.yml/): Defines and runs multi-container Docker applications using a YAML file
+* [`opensearch.yml`](docker-compose/opensearch/opensearch.yml): Defines a single-node OpenSearch service using Docker Compose for local deployment.
 
 
 ### 4. 📊 Monitoring: Prometheus + Grafana
