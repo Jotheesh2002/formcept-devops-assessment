@@ -139,9 +139,10 @@ Details Prometheus and Grafana setup for monitoring the OpenSearch cluster Docum
 ### 5. ⚙️ Kubernetes Cluster via kubeadm
 
 **Path:** [`5_kubeadm/`](docs/05-kubernetes-setup.md/)
-Bootstrap a Kubernetes cluster with containerd runtime Documentation
+Documents step-by-step Kubernetes cluster setup using kubeadm and containerd.
 
-*  Initialize master node ,containerd configuration and Script to join worker nodes
+* [`setup.sh`](scripts/setup-kubernetes.sh/): Automates Kubernetes cluster initialization using kubeadm with containerd as the runtime Documentation.
+
 
 ### 6. 🧠 OpenSearch on Kubernetes
 
