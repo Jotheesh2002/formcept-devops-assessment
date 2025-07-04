@@ -254,12 +254,20 @@ kubectl get pods -n opensearch
 <!-- Row 1 -->
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
   <div style="flex: 1 1 45%; text-align: center;">
-    <h3>✅ API Output</h3>
-    <img src="./screenshots/API-Output.png" alt="API Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <h3>✅ Colima </h3>
+    <img src="./screenshots/colima_contxtuse.png" alt="API Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
   <div style="flex: 1 1 45%; text-align: center;">
-    <h3>🐳 Docker Runtime</h3>
-    <img src="./screenshots/Docker.png" alt="Docker Runtime" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  <h3>⚙️ Chroot Test </h3>
+    <img src="./screenshots/chroot_test.png" alt="API Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>🐳 Docker info containerd </h3>
+    <img src="./screenshots/dockerinfo_containerd.png" alt="Docker Runtime" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1 1 45%; text-align: center;">
+    <h3>🐳 Docker Compose </h3>
+    <img src="./screenshots/docker_compose.png" alt="Docker Runtime" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
   <div style="flex: 1 1 45%; text-align: center;">
     <h3>⚙️ Docker Ps Output</h3>
