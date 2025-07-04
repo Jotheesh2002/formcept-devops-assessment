@@ -263,7 +263,7 @@ kubectl get pods -n opensearch
   </div>
   <div style="flex: 1 1 45%; text-align: center;">
     <h3>⚙️ Docker Ps Output</h3>
-    <img src="./screenshots/Docher-ps.jpeg" alt="Docker Ps Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <img src="./screenshots/Docker_ps.png" alt="Docker Ps Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
 </div>
 
