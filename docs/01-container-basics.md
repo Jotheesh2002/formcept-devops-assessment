@@ -163,6 +163,24 @@ mount | grep cgroup
 # For cgroups v2:
 echo "+memory +cpu" | sudo tee /sys/fs/cgroup/cgroup.subtree_control
 ```
+## 🍎 BONUS: Colima Setup on macOS (M1/M2)
+## Colima is a fast, lightweight container runtime for macOS (especially M1/M2 chips).
+
+### 🔧 Install Colima (Homebrew)
+```bash
+brew install colima
+```
+### ▶️ Start Colima with containerd
+
+colima start --runtime containerd --arch aarch64 --cpu 4 --memory 4
+Use colima status to verify. If using Docker CLI, switch context:
+
+```bash
+docker context use colima
+```
+
+Colima provides a native Linux VM with containerd, ideal for Kubernetes and Docker-based workloads.
+
 
 ### ✅ Key Takeaways
 
