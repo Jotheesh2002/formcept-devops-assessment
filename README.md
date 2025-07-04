@@ -290,12 +290,12 @@ kubectl get pods -n opensearch
 <!-- Row 3 -->
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
   <div style="flex: 1 1 45%; text-align: center;">
-    <h3>📊 OpenSearch Grafana Dashboard</h3>
-    <img src="./screenshots/Visualization.png" alt="Grafana Dashboard" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <h3>📊 OpenSearch </h3>
+    <img src="./screenshots/opensearch_login.png" alt="opensearch login page" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
   <div style="flex: 1 1 45%; text-align: center;">
-    <h3>⚙️ Kubectl Node Output</h3>
-    <img src="./screenshots/kubectl.png" alt="Kubectl Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <h3>⚙️ Grafana </h3>
+    <img src="./screenshots/Grafana.png" alt="Grafana  Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
 <div style="flex: 1 1 45%; text-align: center;">
     <h3>⚙️ Kubeadm Init Output</h3>
