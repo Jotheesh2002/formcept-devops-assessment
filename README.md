@@ -283,7 +283,7 @@ kubectl get pods -n opensearch
   </div>
   <div style="flex: 1 1 45%; text-align: center;">
     <h3>📈 Prometheus Targets</h3>
-    <img src="./screenshots/Monitoring.png" alt="Prometheus Targets" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <img src="./screenshots/Monitoring.png" alt="Prometheus Targets" style="width: 70%; max-width: 300px; height: auto; border-radius: 8px;" />
   </div>
 </div>
 
@@ -291,11 +291,11 @@ kubectl get pods -n opensearch
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
   <div style="flex: 1 1 45%; text-align: center;">
     <h3>📊 OpenSearch </h3>
-    <img src="./screenshots/opensearch_login.png" alt="opensearch login page" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <img src="./screenshots/opensearch_login.png" alt="opensearch login page" style="width: 70%; max-width: 300px; height: auto; border-radius: 8px;" />
   </div>
   <div style="flex: 1 1 45%; text-align: center;">
     <h3>⚙️ Grafana </h3>
-    <img src="./screenshots/Grafana.png" alt="Grafana  Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+    <img src="./screenshots/Grafana.png" alt="Grafana  Output" style="width: 90%; max-width: 400px; height: auto; border-radius: 8px;" />
   </div>
 <div style="flex: 1 1 45%; text-align: center;">
     <h3>⚙️ Kubeadm Init Output</h3>
