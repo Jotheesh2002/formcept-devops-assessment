@@ -8,6 +8,7 @@ This guide demonstrates how to understand and deploy OpenSearch using Docker and
 man chroot
 ```
 chroot changes the root directory for a process, providing basic filesystem-level isolation — the foundational idea behind containers.
+<img src="OUTPUTS/1-chroot-man.png" alt="chroot Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 
 
 ####   Container Engine (Docker)
