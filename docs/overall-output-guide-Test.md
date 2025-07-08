@@ -136,6 +136,19 @@ curl -u admin:admin123 http://$(minikube ip):<nodeport>
 
 curl -u admin:admin123 http://<ingress-host>
 ```
+<img src="OUTPUTS/Grafana-node-dashboard.png" alt="output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
+<img src="OUTPUTS/opensearch-trafic-logs.png" alt="services" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
+<img src="OUTPUTS/prometheus-targets.png" alt="services" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
+<img src="OUTPUTS/Grafana-metrics.png" alt="services" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
+<img src="OUTPUTS/grafana-panel-setup.png" alt="services" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
+
+
+
 🎥 Tips for Sharing Terminal Sessions
 Use tmux or screen for clean session sharing.
 
@@ -143,7 +156,7 @@ Use tmux or screen for clean session sharing.
 #### environment proof:
 
 ```bash
-Copy code
+
 uname -m            # Should say arm64 on M2
 minikube status
 docker info
