@@ -8,6 +8,7 @@ This guide demonstrates how to understand and deploy OpenSearch using Docker and
 man chroot
 ```
 chroot changes the root directory for a process, providing basic filesystem-level isolation — the foundational idea behind containers.
+
 <img src="OUTPUTS/1-chroot-man.png" alt="chroot Output" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 
 
@@ -17,6 +18,8 @@ chroot changes the root directory for a process, providing basic filesystem-leve
 docker version
 ```
 Docker is a container engine that interfaces with containerd to provide CLI and API tools to manage containers.
+
+<img src="OUTPUTS/2-docker-version.png" alt="Docker version" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 
 ## 🛠 2. Setup Docker Engine with containerd
 #### ✅ Check Docker Engine using containerd
@@ -29,6 +32,7 @@ docker info | grep -i "containerd"
 
   ps aux | grep containerd
 ```
+<img src="OUTPUTS/3-docker-containerd.png" alt="Docker containerd" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 ## 📦 3. Deploy OpenSearch Cluster with Docker Compose
 #### docker-compose.yml Example
 ```bash
@@ -42,6 +46,7 @@ docker-compose up -d
 
 docker ps | grep opensearch
 ```
+<img src="OUTPUTS/4-opensearch-nodes.png" alt="opensearch" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 #### 🔍 Test OpenSearch API
 ```bash
 
@@ -54,6 +59,7 @@ curl -u admin:admin123 http://localhost:9200
 docker ps | grep prometheus
 docker ps | grep grafana
 ```
+<img src="OUTPUTS/4-docker-ps-all.png" alt="Docker ps" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 #### 📍 Prometheus Targets & Grafana Dashboards
 Access via browser (update with your local ports):
 ```
