@@ -52,14 +52,17 @@ docker-compose up -d
 
 docker ps | grep opensearch
 ```
-<img src="OUTPUTS/4-opensearch-nodes.png" alt="opensearch" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
-
 #### 🔍 Test OpenSearch API
+
+<img src="OUTPUTS/4-opensearch-nodes.png" alt="opensearch" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
 
 ```bash
 
 curl -u admin:admin123 http://localhost:9200
 ```
+
+<img src="OUTPUTS/opensearch-trafic-logs.png" alt= "opensearch" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
 ## 📊 4. Monitor with Prometheus + Grafana
 ### ✔️ Confirm Services Running
 
@@ -79,6 +82,8 @@ Prometheus: http://localhost:9090/targets
 ```
 Grafana: http://localhost:3000
 ```
+<img src="OUTPUTS/Grafana-metrics.png" alt= "Grafana" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
 
 ## ☸️ 5. Create Kubernetes Cluster (Kubeadm + containerd)
 ### 🚀 Check Cluster & Pods
@@ -101,13 +106,13 @@ cat opensearch-deployment.yml
 kubectl apply -f opensearch-deployment.yml
 kubectl get pods -w
 ```
-<img src="OUTPUTS/6-kubectl-logs.png" alt="logs" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
-
 #### 🧾 Logs
 ```bash
 
 kubectl logs <opensearch-pod-name>
 ```
+<img src="OUTPUTS/6-kubectl-logs.png" alt="logs" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;" />
+
 ## 🌐 7. Expose OpenSearch (NodePort / Ingress)
 #### 📄 View Service Manifest
 ```bash
